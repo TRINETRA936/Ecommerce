@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "827675507814",
+    "project_id": "emarket-d2b0c",
+    "storage_bucket": "emarket-d2b0c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:827675507814:android:5e7aca2754ac9d832b81a7",
+        "android_client_info": {
+          "package_name": "com.example.emarket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRQiTr03gSf4_1OdiriNv7ww6_FLDeKA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

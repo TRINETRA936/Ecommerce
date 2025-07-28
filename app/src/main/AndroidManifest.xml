@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.emarket">
+
+    <!-- Internet permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Emarket"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Emarket">
+
+        <!-- Launcher activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Admin login -->
+        <activity
+            android:name=".AdminLoginActivity"
+            android:exported="true" />
+
+        <!-- Admin panel -->
+        <activity
+            android:name=".AdminPanelActivity"
+            android:exported="true" />
+
+        <!-- User login -->
+        <activity
+            android:name=".UserLoginActivity"
+            android:exported="true" />
+
+        <!-- User registration -->
+        <activity
+            android:name=".UserRegisterActivity"
+            android:exported="true" />
+
+        <!-- Customer dashboard -->
+        <activity
+            android:name=".CustomerDashboardActivity"
+            android:exported="true" />
+
+    </application>
+
+</manifest>
